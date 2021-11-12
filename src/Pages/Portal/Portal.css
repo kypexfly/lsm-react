@@ -1,0 +1,40 @@
+#intro {
+    margin: 0 0 1.5em 0;
+    background-color: #403b62;
+}
+
+#intro .box-title {
+    display: flex;
+    align-items: center;
+}
+
+#banner {
+    background-image: url("../../Images/qlex-bannerv2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 282px;
+}
+
+#main-body {
+    margin-top: -25px;
+}
+
+#main-body .container h1 {
+    text-transform: none;
+    padding: .5em;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.boxes {
+    background-color: rgba(75, 75, 75, 0.25);
+    border-radius: .475rem;
+    overflow: hidden;
+    margin: 12px 0;
+}
+
+.box-content {
+    padding: 1em;
+}
