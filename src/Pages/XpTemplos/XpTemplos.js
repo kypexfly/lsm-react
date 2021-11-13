@@ -1,4 +1,12 @@
+import { useEffect } from 'react';
+import '../../Components/Card/Card.css';
+
 function XpTemplos() {
+
+    useEffect(() => {
+        window.scroll(0, 0,);
+    }, []);
+
     return (
         <section id="section" className="d-flex">
             <div className="container">

@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Card from "../../Components/Card/Card";
 import background from '../../Images/calc-02.jpg';
 
 function IchiVelocidad() {
+
+    useEffect(() => {
+        window.scroll(0, 0,);
+    }, []);
+
     return (
         <section id="section" className="d-flex">
             <div className="container">

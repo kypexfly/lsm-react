@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Calc from '../../Components/Calc/Calc';
 
 import './Portal.css';
@@ -16,8 +16,15 @@ import sdiscord from '../../Images/social-discord.png';
 import sinstagram from '../../Images/social-instagram.png';
 
 function Portal() {
+
+    useEffect(() => {
+        window.scroll(0, 0,);
+    }, []);
+
     return (
-        <React.Fragment>
+        < React.Fragment >
+
+
             <section id="banner">
             </section>
 
@@ -130,7 +137,7 @@ function Portal() {
                     </div>
                 </div>
             </main>
-        </React.Fragment>
+        </React.Fragment >
     )
 }
 
