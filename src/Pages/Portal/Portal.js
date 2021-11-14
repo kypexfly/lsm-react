@@ -91,7 +91,7 @@ function Portal() {
                                             <img style={{ maxWidth: '100%' }} src="https://cdn.cloudflare.steamstatic.com/steam/apps/417020/header.jpg?t=1635570045" alt="REalM: Walk of Soul" />
                                         </a>
                                         <br /><br />
-                                        Disponible ya en: PC | PS4
+                                        Disponible ya en Steam para PC
                                     </center>
                                 </div>
                             </div>

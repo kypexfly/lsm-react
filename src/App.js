@@ -55,7 +55,7 @@ function App() {
             <Route path='/Templos' element={<Templos />} title='Templos - Calculadora | Logia Santos Mojados' />
             <Route path='/SubCosmos' element={<SubCosmos />} title='Subatributos ideales - Tabla | Logia Santos Mojados' />
             <Route path='/XpTemplos' element={<XpTemplos />} title='XP Flores - Tabla | Logia Santos Mojados' />
-            <Route path='*' element={<NotFound/>} />
+            <Route path='*' element={<NotFound />} />
           </Routes>
 
         </Suspense>

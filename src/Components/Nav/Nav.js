@@ -9,11 +9,11 @@ function Nav() {
                     <NavLink className="logo" to="/">La Logia de los Santos Mojados</NavLink>
                 </div>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-tog" aria-controls="navbarTog" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">X</span>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-tog" aria-controls="navbarTog" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon">X</span>
                 </button>
 
-                <div id="nav-tog" class="nav collapse navbar-collapse">
+                <div id="nav-tog" className="nav collapse navbar-collapse">
                     <NavLink to='/PSEfectivos' className='nav-link' activeClassName="active">PS Efectivos</NavLink>
                     <NavLink to='/IchiVelocidad' className='nav-link' activeClassName="active">Ichi Velocidad</NavLink>
                     <NavLink to='/Fragmentos' className='nav-link' activeClassName="active">Boletos PvE</NavLink>
