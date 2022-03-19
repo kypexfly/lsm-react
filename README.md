@@ -1,3 +1,18 @@
+# Logia de los Santos Mojados
+
+Redesign made with React.js.
+* Demo: https://logiasantosmojadosv2.netlify.app/
+
+![Website preview](https://i.imgur.com/188dGfF.png)
+* Original website: http://santosmojados.com/Calculadora/Templos.html
+
+# Resources used:
+* Google Fonts: Nunito
+* Bootstrap Grid 5.1.3 (CSS & JS)
+* React.js, React-Router-Dom
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
